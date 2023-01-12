@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+}
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.logo span {
+    @apply text-blue-700;
+}
+.card-decoration{
+    position: absolute;
+    right: -35px;
+    bottom: -35px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;background-color: #7F63F4;
+}
+.card-decoration span{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    color: #fff;
+    font-size: 1rem;
+}
