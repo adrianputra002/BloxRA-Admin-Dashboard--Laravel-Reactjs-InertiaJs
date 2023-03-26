@@ -350,20 +350,15 @@ class ProductController extends Controller
     {
         return  Inertia::render('Admin');
     }
-    public function DownloadExcelTemplate()
+    public function downloadExcelTemplate()
     {
-        // get storage path for excel template
+        $templatePath = storage_path('app/public/exceltemplate/template.xlsx');
 
-        // $path= storage_path('app/public/exceltemplate/template.xlsx');
-        // if(Storage::exists($path)){
-        //     return response()->download($path);
-        // }
-        // else{
-        //     return redirect()->route('product.index')->with('status', 'File Not Found');
-        // }
-        $publicpath = storage_path('app/public/exceltemplate/template.xlsx');
-
-        // return publicpath file size
-        return response()->download($publicpath);
+        if (file_exists($templatePath)) {
+            $filename = 'BloxrTemplate_' . date('YmdHis') . '.xlsx';
+            return response()->download($templatePath, $filename);
+        } else {
+            return redirect()->route('product.index')->with('status', 'File not found');
+        }
     }
 }

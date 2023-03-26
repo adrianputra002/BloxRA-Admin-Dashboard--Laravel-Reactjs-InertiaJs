@@ -56,16 +56,16 @@ export default function EditTender(props) {
         lightsource: tender.lightsource,
         dimensionphoto: {path:tender.dimensionphoto.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         photometricphoto:  {path: tender.photometricphoto.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         accessoriesphoto: "",
         mainphoto: {path: tender.mainphoto.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         beamangle: tender.beamangle,
         driver: tender.driver,
@@ -91,16 +91,16 @@ export default function EditTender(props) {
         lightsourcesecond: tender.lightsourcesecond,
         dimensionphotosecond: {path: tender.dimensionphotosecond.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         photometricphotosecond: {path: tender.photometricphotosecond.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         accessoriesphotosecond: "",
         mainphotosecond: {path: tender.mainphotosecond.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         beamanglesecond: tender.beamanglesecond,
         driversecond: tender.driversecond,
@@ -126,16 +126,16 @@ export default function EditTender(props) {
         lightsourcethird: tender.lightsourcethird,
         dimensionphotothird:  {path: tender.dimensionphotothird.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         photometricphotothird: {path: tender.photometricphotothird.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         accessoriesphotothird: [],
         mainphotothird: {path: tender.mainphotothird.replace(
             /public\//,
-            "storage/"
+            "public/"
         ),},
         beamanglethird: tender.beamanglethird,
         driverthird: tender.driverthird,
@@ -185,7 +185,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_main_photo_name,
                 path: product[0].product_img_main_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_main_photo_size,
             },
@@ -193,7 +193,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_dimension_photo_name,
                 path: product[0].product_img_dimension_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_dimension_photo_size,
             },
@@ -201,7 +201,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_photometric_photo_name,
                 path: product[0].product_img_photometric_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_photometric_photo_size,
             },
@@ -209,7 +209,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_accessories_photo_name,
                 path: product[0].product_img_accessories_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_accessories_photo_size,
             },
@@ -254,7 +254,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_main_photo_name,
                 path: product[0].product_img_main_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_main_photo_size,
             },
@@ -262,7 +262,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_dimension_photo_name,
                 path: product[0].product_img_dimension_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_dimension_photo_size,
             },
@@ -270,7 +270,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_photometric_photo_name,
                 path: product[0].product_img_photometric_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_photometric_photo_size,
             },
@@ -278,7 +278,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_accessories_photo_name,
                 path: product[0].product_img_accessories_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_accessories_photo_size,
             },
@@ -323,7 +323,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_main_photo_name,
                 path: product[0].product_img_main_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_main_photo_size,
             },
@@ -331,7 +331,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_dimension_photo_name,
                 path: product[0].product_img_dimension_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_dimension_photo_size,
             },
@@ -339,7 +339,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_photometric_photo_name,
                 path: product[0].product_img_photometric_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_photometric_photo_size,
             },
@@ -347,7 +347,7 @@ export default function EditTender(props) {
                 name: product[0].product_img_accessories_photo_name,
                 path: product[0].product_img_accessories_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_accessories_photo_size,
             },

@@ -158,7 +158,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_main_photo_name,
                 path: product[0].product_img_main_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_main_photo_size,
             },
@@ -166,7 +166,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_dimension_photo_name,
                 path: product[0].product_img_dimension_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_dimension_photo_size,
             },
@@ -174,7 +174,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_photometric_photo_name,
                 path: product[0].product_img_photometric_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_photometric_photo_size,
             },
@@ -182,7 +182,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_accessories_photo_name,
                 path: product[0].product_img_accessories_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_accessories_photo_size,
             },
@@ -227,7 +227,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_main_photo_name,
                 path: product[0].product_img_main_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_main_photo_size,
             },
@@ -235,7 +235,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_dimension_photo_name,
                 path: product[0].product_img_dimension_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_dimension_photo_size,
             },
@@ -243,7 +243,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_photometric_photo_name,
                 path: product[0].product_img_photometric_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_photometric_photo_size,
             },
@@ -251,7 +251,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_accessories_photo_name,
                 path: product[0].product_img_accessories_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_accessories_photo_size,
             },
@@ -296,7 +296,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_main_photo_name,
                 path: product[0].product_img_main_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_main_photo_size,
             },
@@ -304,7 +304,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_dimension_photo_name,
                 path: product[0].product_img_dimension_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_dimension_photo_size,
             },
@@ -312,7 +312,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_photometric_photo_name,
                 path: product[0].product_img_photometric_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_photometric_photo_size,
             },
@@ -320,7 +320,7 @@ export default function AddTender(props) {
                 name: product[0].product_img_accessories_photo_name,
                 path: product[0].product_img_accessories_photo_path.replace(
                     /public\//,
-                    "storage/"
+                    "public/"
                 ),
                 size: product[0].product_img_accessories_photo_size,
             },
