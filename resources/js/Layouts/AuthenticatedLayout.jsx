@@ -208,7 +208,7 @@ export default function Authenticated({ auth, header, children }) {
                 </header>
             )}
 
-            <main>{children}</main>
+            <main className="min-h-cust">{children}</main>
             <footer className="p-4 border shadow w-full text-center bg-white"> © Developed by <a href="https://adrsvn.com/" target="_blank"> <strong> Adrian Putra </strong></a>  | 2023</footer>
         </div>
     );
