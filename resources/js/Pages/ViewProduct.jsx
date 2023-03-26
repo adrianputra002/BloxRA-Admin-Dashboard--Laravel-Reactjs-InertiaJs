@@ -737,7 +737,7 @@ export default function ViewProduct(props) {
                                                     <img
                                                         width="300px"
                                                         height="300px"
-                                                        src={`../storage/${data.mainphoto.path}`}
+                                                        src={`../public/${data.mainphoto.path}`}
                                                     />
                                                 </div>
                                             </div>
@@ -756,7 +756,7 @@ export default function ViewProduct(props) {
                                                     <img
                                                         width="300px"
                                                         height="300px"
-                                                        src={`../storage/${data.dimensionphoto.path}`}
+                                                        src={`../public/${data.dimensionphoto.path}`}
                                                     />
                                                 </div>
                                             </div>
@@ -776,7 +776,7 @@ export default function ViewProduct(props) {
                                                     <img
                                                         width="300px"
                                                         height="300px"
-                                                        src={`../storage/${data.photometricphoto.path}`}
+                                                        src={`../public/${data.photometricphoto.path}`}
                                                     />
                                                 </div>
                                             </div>
@@ -795,7 +795,7 @@ export default function ViewProduct(props) {
                                                     <img
                                                         width="300px"
                                                         height="300px"
-                                                        src={`../storage/${data.accessoriesphoto.path}`}
+                                                        src={`../public/${data.accessoriesphoto.path}`}
                                                     />
                                                 </div>
                                             </div>
