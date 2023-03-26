@@ -121,7 +121,7 @@ class ProductController extends Controller
         // Store file as currentdate+time+originalname + file extension in public/excel
         $file->storeAs('public/excel', date('YmdHis') . $file->getClientOriginalName());
         // Get uploaded path string
-        $filePath = storage_path('app/public/excel/' . date('YmdHis') . $file->getClientOriginalName());
+        $filePath = storage_path('../public/public/excel/' . date('YmdHis') . $file->getClientOriginalName());
         // import excel file
 
         $importExcel = Excel::import(new product, request()->file('excelfile'));
