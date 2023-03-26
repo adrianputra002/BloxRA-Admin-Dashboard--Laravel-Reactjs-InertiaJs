@@ -134,7 +134,7 @@ console.log(filteredProducts)
                                                         {product.product_model}
                                                     </td>
                                                     <td className="py-4 px-6">
-                                                        <img src={`../storage/mainPhoto/${product.product_img_main_photo_path}`} width="250px" height="250px" alt="" />
+                                                        <img src={`../mainPhoto/${product.product_img_main_photo_path}`} width="250px" height="250px" alt="" />
                                                     </td>
                                                     <td className="py-4 px-6">
                                                         {product.product_brand}
